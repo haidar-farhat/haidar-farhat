@@ -1,198 +1,234 @@
-# Hey, I'm Haidar Farhat 👋
+# Hi, I'm Haidar Farhat 👋
 
-### AI Engineer · Full-Stack Software Engineer · Builder
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=AI+Engineer+%7C+Full-Stack+Software+Engineer;Building+AI+systems+that+actually+ship;LLMs+%C2%B7+Computer+Vision+%C2%B7+Automation+%C2%B7+Product+Engineering" alt="Typing animation" />
+</p>
 
-I build **AI-powered applications, intelligent automation systems, and full-stack products** — from the model layer all the way to the user interface.
+<p align="center">
+  <a href="https://github.com/haidar-farhat"><img src="https://img.shields.io/github/followers/haidar-farhat?label=Followers&style=flat-square" alt="GitHub followers" /></a>
+  <a href="https://github.com/haidar-farhat?tab=repositories"><img src="https://img.shields.io/github/stars/haidar-farhat?affiliations=OWNER%2CCOLLABORATOR&style=flat-square&label=Stars" alt="GitHub stars" /></a>
+  <img src="https://komarev.com/ghpvc/?username=haidar-farhat&style=flat-square&label=Profile+Views" alt="Profile views" />
+</p>
 
-I'm particularly interested in turning AI models into **real, useful software** rather than just demos.
+---
+
+## ⚡ About Me
+
+I'm a **Computer Science graduate and software engineer focused on AI engineering, full-stack development, and intelligent automation**.
+
+I enjoy taking an idea from **model → backend → automation → interface → production**.
+
+My work sits at the intersection of:
 
 ```text
-AI Engineering        ████████████████████
-Full-Stack Development ███████████████████░
-Automation             ██████████████████░░
-Computer Vision        ████████████████░░░░
-LLM Systems            █████████████████░░░
+Artificial Intelligence
+        ×
+Software Engineering
+        ×
+Automation
+        ×
+Computer Vision
+        ×
+Real-world Products
 ```
 
+I care about more than making a model work once. I want systems that are **usable, observable, maintainable, and practical**.
+
 ---
 
-## 🚀 What I Build
+## 🧠 What I Work On
 
-**AI & LLM Systems**
+### 🤖 AI Engineering
 
 * LLM-powered applications
-* RAG pipelines
-* AI agents
-* Local / GPU-accelerated AI
-* Prompt engineering
-* AI automation workflows
+* AI agents and tool-using systems
+* Retrieval-Augmented Generation (RAG)
+* Local and GPU-accelerated AI
+* Prompt engineering and structured generation
+* AI-assisted automation
 
-**Software Engineering**
+### 👁️ Computer Vision
 
-* Full-stack web applications
-* REST APIs
-* Mobile applications
-* Database-driven systems
-* Automation platforms
-* Developer tooling
-
-**Computer Vision**
-
-* OCR
 * Object detection
-* Segmentation & masking
+* Segmentation and masking
+* OCR
 * Image understanding
-* Camera-based analysis
-* Geometric / spatial computation
+* Camera/video analysis
+* Geometric and spatial computation
+
+### 🌐 Full-Stack Engineering
+
+* Frontend architecture
+* REST APIs
+* Backend services
+* Database-driven applications
+* Mobile applications
+* AI-integrated web products
+
+### ⚙️ Automation
+
+* Browser automation
+* Workflow orchestration
+* Data extraction
+* Intelligent agents
+* Monitoring and execution pipelines
 
 ---
 
-## 🧠 Tech Stack
+# 🚀 Featured Work
 
-### Languages
+## 🤖 Jobbler
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge\&logo=rust\&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+**AI-powered job discovery and application automation.**
 
-### Frontend
+Jobbler is a product-oriented AI system designed around the complete job-application workflow: understanding a user's profile, analyzing opportunities, generating tailored application materials, automating browser interactions, and tracking execution.
 
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge\&logo=angular\&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge\&logo=flutter\&logoColor=white)
+**Focus:** AI agents · browser automation · LLMs · document generation · workflow orchestration
 
-### Backend
+<a href="https://github.com/haidar-farhat/jobbler">
+  <img src="https://img.shields.io/badge/Explore%20Jobbler-238636?style=for-the-badge&logo=github&logoColor=white" alt="Explore Jobbler" />
+</a>
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js\&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
+---
+
+## 🧠 Brevet-GPT
+
+An AI-oriented project exploring how language models can be applied to real document and knowledge workflows.
+
+**Focus:** LLMs · RAG · document understanding · AI applications
+
+<a href="https://github.com/haidar-farhat/Brevet-gpt">
+  <img src="https://img.shields.io/badge/Explore%20Brevet--GPT-21262d?style=for-the-badge&logo=github&logoColor=white" alt="Explore Brevet-GPT" />
+</a>
+
+---
+
+## 💪 Silhou
+
+A fitness-focused application combining mobile engineering, backend systems, and intelligent data processing.
+
+**Focus:** React Native · TypeScript · Laravel · mobile product engineering
+
+---
+
+# 🛠️ Technology
 
 ### AI / ML
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge\&logo=pytorch\&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge\&logo=onnx\&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge\&logo=opencv\&logoColor=white)
+`PyTorch` · `ONNX` · `OpenCV`
 
-### Tools & Infrastructure
+### Languages
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
+`TypeScript` · `JavaScript` · `Python` · `PHP` · `SQL` · `Rust`
 
----
+### Frontend / Mobile
 
-## 🔥 Featured Projects
+`Angular` · `React` · `React Native` · `Flutter`
 
-### 🤖 Jobbler
+### Backend / Platforms
 
-**AI-powered job automation platform**
+`Node.js` · `Laravel` · `MySQL`
 
-A system designed to use AI and browser automation to:
+### Tooling / Infrastructure
 
-* Analyze job listings
-* Understand candidate profiles
-* Generate tailored CVs
-* Generate personalized cover letters
-* Automate application workflows
-* Track applications and activity
-* Provide a web interface for monitoring automation
-
-**Stack:** `AI · LLMs · Browser Automation · TypeScript · Node.js`
-
-[![Jobbler](https://img.shields.io/badge/View%20Project-181717?style=for-the-badge\&logo=github)](https://github.com/haidar-farhat/jobbler)
+`Git` · `GitHub Actions` · `Docker` · `Linux`
 
 ---
 
-### 🧠 Brevet-GPT
+# 🧩 Engineering Focus
 
-AI-powered project focused on applying LLM technology to real-world document and knowledge workflows.
-
-**Stack:** `AI · LLM · RAG · Full-Stack`
-
-[![Brevet-GPT](https://img.shields.io/badge/View%20Project-181717?style=for-the-badge\&logo=github)](https://github.com/haidar-farhat/Brevet-gpt)
-
----
-
-### 💪 Silhou
-
-A fitness-focused application combining **mobile development, backend systems, and intelligent data processing**.
-
-**Stack:** `React Native · TypeScript · Laravel · AI`
+| Area                    | What I'm building toward                                                     |
+| ----------------------- | ---------------------------------------------------------------------------- |
+| **AI Agents**           | Reliable agents that use tools, reason over context, and complete workflows  |
+| **LLM Systems**         | RAG, structured generation, evaluation, and production integrations          |
+| **Computer Vision**     | Detection, segmentation, OCR, spatial understanding, and camera intelligence |
+| **Automation**          | Systems that turn repetitive browser and business workflows into software    |
+| **Local AI**            | Running capable AI workloads efficiently on consumer GPUs                    |
+| **Product Engineering** | Taking AI concepts from prototype to usable applications                     |
 
 ---
 
-## 🏗️ Currently Exploring
+# 🏗️ How I Like to Build
 
 ```text
-┌──────────────────────────────────────────────┐
-│              CURRENT INTERESTS               │
-├──────────────────────────────────────────────┤
-│ 🤖 AI Agents                                 │
-│ 🧠 LLM Systems & RAG                         │
-│ 👁️ Computer Vision                           │
-│ 🎯 Object Detection & Segmentation           │
-│ 📐 Geometric & Spatial Computing              │
-│ 🎥 Camera / Video Understanding                │
-│ ⚡ Local GPU AI                               │
-│ 🌐 AI-powered Full-Stack Applications         │
-│ 🔄 Intelligent Browser Automation             │
-└──────────────────────────────────────────────┘
+Problem
+  ↓
+Understand the workflow
+  ↓
+Design the system
+  ↓
+Choose the right AI / software components
+  ↓
+Build the smallest useful version
+  ↓
+Measure + debug
+  ↓
+Harden reliability
+  ↓
+Ship
 ```
 
----
-
-## 🎯 Engineering Philosophy
-
-> **Don't build AI for the sake of AI. Build systems that actually solve problems.**
-
-I like working at the intersection of:
-
-**AI + Software Engineering + Automation + Real-World Applications**
-
-My goal is to take something that normally requires a human workflow, understand the process, and turn it into a **reliable intelligent system**.
+> **The goal isn't to use the most AI. The goal is to build the best system for the problem.**
 
 ---
 
-## 📊 GitHub Stats
+# 📈 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=haidar-farhat&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=haidar-farhat&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=haidar-farhat&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="180" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=haidar-farhat&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="180" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=haidar-farhat&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com?user=haidar-farhat&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
 </p>
 
 ---
 
-## 🐍 Contribution Graph
+# 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/haidar-farhat/haidar-farhat/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/haidar-farhat/haidar-farhat/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
 </p>
 
 ---
 
-## 🌐 Connect With Me
+# 🎓 Background
 
-<p align="center">
+**B.S. in Computer Science**
+Lebanese International University · 2025
 
-<a href="https://github.com/haidar-farhat">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+My engineering background combines **software development, networking/security foundations, AI experimentation, and full-stack product development**.
 
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+Relevant areas:
 
-</p>
+`CCNA` · `Cisco Network Security` · `CyberOps` · `Full-Stack Development` · `AI Engineering`
 
 ---
 
+# 🔭 Currently Exploring
+
+* More capable AI agents and tool-use architectures
+* Local LLM / vision inference
+* Computer vision for real-world camera understanding
+* Geometric reasoning and spatial computation
+* AI-powered browser automation
+* Production RAG and evaluation systems
+* High-performance AI application architecture
+
+---
+
+# 🌍 Let's Connect
+
 <p align="center">
-  <b>Building intelligent software, one system at a time. 🚀</b>
+  <a href="https://github.com/haidar-farhat">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/haydar-farhat7">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
+<p align="center">
+  <i>Building intelligent software that turns difficult workflows into working products.</i>
 </p>
