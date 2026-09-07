@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="330" viewBox="0 0 690 330" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0F1E"/><stop offset="1" stop-color="#050810"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<linearGradient id="accv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<radialGradient id="gc"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<radialGradient id="gv"><stop offset="0" stop-color="#A78BFA" stop-opacity=".22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1C2742" stroke-opacity=".55"/></pattern>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#26345A"/></pattern>
+<clipPath id="clip"><rect width="690" height="330" rx="22"/></clipPath>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<style>
+.s{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif} .m{font-family:'Cascadia Code','JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+.blink{animation:bl 1.1s steps(2,start) infinite} @keyframes bl{50%{opacity:0}}
+.pulse{animation:pu 2.2s ease-in-out infinite} @keyframes pu{0%,100%{opacity:.45}50%{opacity:1}}
+.fade{opacity:0;animation:fd .6s ease-out forwards} @keyframes fd{to{opacity:1}}
+.rise{opacity:0;animation:rs .6s ease-out both} @keyframes rs{from{opacity:0}to{opacity:1}}
+.dash{animation:da 1s linear infinite} @keyframes da{to{stroke-dashoffset:-16}}
+.scan{animation:sc 8s linear infinite} @keyframes sc{from{transform:translateY(-40px)}to{transform:translateY(700px)}}
+.spin{animation:sp 6s linear infinite;transform-box:fill-box;transform-origin:center} @keyframes sp{to{transform:rotate(360deg)}}
+.spinr{animation:spr 14s linear infinite;transform-box:fill-box;transform-origin:center} @keyframes spr{to{transform:rotate(-360deg)}}
+.draw{stroke-dasharray:2000;stroke-dashoffset:2000;animation:dr 2.2s ease-out forwards} @keyframes dr{to{stroke-dashoffset:0}}
+.flt{animation:fl 9s ease-in-out infinite} @keyframes fl{0%,100%{transform:translate(0,0)}50%{transform:translate(-26px,18px)}}
+.flt2{animation:fl2 12s ease-in-out infinite} @keyframes fl2{0%,100%{transform:translate(0,0)}50%{transform:translate(22px,-16px)}}
+</style>
+<g clip-path="url(#clip)">
+<rect width="690" height="330" fill="url(#bg)"/><rect width="690" height="330" fill="url(#grid)"/>
+<g class="flt"><circle cx="565.8" cy="66.0" r="181.50000000000003" fill="url(#gc)"/></g><g class="flt2"><circle cx="172.5" cy="313.5" r="165.0" fill="url(#gv)"/></g>
+<g class="scan" opacity=".25"><rect width="690" height="3" fill="url(#acc)"/></g>
+</g>
+<rect x=".5" y=".5" width="689" height="329" rx="22" fill="none" stroke="#26345A"/>
+
+
+<rect x="0" y="0" width="6" height="330" fill="#34D399"/>
+<text x="30" y="46" class="s" font-size="24" font-weight="900" fill="#E6EDF3">Brevet-GPT</text>
+<text x="189.0" y="46" class="m" font-size="13" fill="#34D399">// rag</text>
+<text x="30" y="76" class="s" font-size="15" font-weight="700" fill="#34D399">Trilingual, fully local study assistant with citations</text>
+<text x="30" y="118" class="s" font-size="13.5" fill="#B4C0D3">Students ask in English, French or Arabic; answers come</text><text x="30" y="137" class="s" font-size="13.5" fill="#B4C0D3">strictly from official textbooks with [n] citations.</text><text x="30" y="156" class="s" font-size="13.5" fill="#B4C0D3">Hybrid dense + lexical retrieval, agentic grade → refine →</text><text x="30" y="175" class="s" font-size="13.5" fill="#B4C0D3">verify loop under a hard LLM-call budget. OCR ingestion UI.</text><g><rect x="30" y="278" width="95" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="77.5" y="292" text-anchor="middle" class="m" font-size="11" fill="#34D399">Django ASGI</text></g><g><rect x="133" y="278" width="67" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="166.5" y="292" text-anchor="middle" class="m" font-size="11" fill="#34D399">Angular</text></g><g><rect x="208" y="278" width="74" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="245.0" y="292" text-anchor="middle" class="m" font-size="11" fill="#34D399">ChromaDB</text></g><g><rect x="290" y="278" width="60" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="320.0" y="292" text-anchor="middle" class="m" font-size="11" fill="#34D399">bge-m3</text></g><g><rect x="358" y="278" width="81" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="398.5" y="292" text-anchor="middle" class="m" font-size="11" fill="#34D399">LM Studio</text></g><g><rect x="447" y="278" width="40" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="467.0" y="292" text-anchor="middle" class="m" font-size="11" fill="#34D399">OCR</text></g>
+<g transform="translate(430,96)"><rect x="0" y="0" width="230" height="160" rx="10" fill="#0B1122" stroke="#26345A"/>
+<text x="8" y="14" class="m" font-size="9" fill="#7D8AA5">query → hybrid retrieval → cited answer</text><rect x="8" y="22" width="36" height="24" rx="6" fill="#050810" stroke="#22D3EE"/><text x="26" y="38" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#22D3EE">EN</text><path id="pl0" d="M44 34 C80 34 80 78 110 78" fill="none" stroke="#26345A"/><circle r="4" fill="#22D3EE" filter="url(#glow)"><animateMotion dur="3s" begin="0s" repeatCount="indefinite"><mpath href="#pl0"/></animateMotion></circle><rect x="8" y="62" width="36" height="24" rx="6" fill="#050810" stroke="#A78BFA"/><text x="26" y="78" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#A78BFA">FR</text><path id="pl1" d="M44 74 C80 74 80 78 110 78" fill="none" stroke="#26345A"/><circle r="4" fill="#A78BFA" filter="url(#glow)"><animateMotion dur="3s" begin="1s" repeatCount="indefinite"><mpath href="#pl1"/></animateMotion></circle><rect x="8" y="102" width="36" height="24" rx="6" fill="#050810" stroke="#34D399"/><text x="26" y="118" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#34D399">AR</text><path id="pl2" d="M44 114 C80 114 80 78 110 78" fill="none" stroke="#26345A"/><circle r="4" fill="#34D399" filter="url(#glow)"><animateMotion dur="3s" begin="2s" repeatCount="indefinite"><mpath href="#pl2"/></animateMotion></circle>
+<rect x="110" y="46" width="64" height="64" rx="8" fill="#050810" stroke="#A78BFA" stroke-opacity=".6"/><circle cx="118" cy="56" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="130" cy="56" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="142" cy="56" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="154" cy="56" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="166" cy="56" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="118" cy="68" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="130" cy="68" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="142" cy="68" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="154" cy="68" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="166" cy="68" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="118" cy="80" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="130" cy="80" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="142" cy="80" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="154" cy="80" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="166" cy="80" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="118" cy="92" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="130" cy="92" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="142" cy="92" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="154" cy="92" r="2.5" fill="#A78BFA" fill-opacity=".8"/><circle cx="166" cy="92" r="2.5" fill="#A78BFA" fill-opacity=".8"/><text x="142" y="124" text-anchor="middle" class="m" font-size="8.5" fill="#A78BFA">chroma · bge-m3</text>
+<path id="pans" d="M174 78 H200" fill="none" stroke="#26345A"/><circle r="4" fill="#FBBF24" filter="url(#glow)"><animateMotion dur="1.5s" begin="0s" repeatCount="indefinite"><mpath href="#pans"/></animateMotion></circle>
+<rect x="200" y="58" width="24" height="40" rx="4" fill="#050810" stroke="#FBBF24"/><text x="212" y="76" text-anchor="middle" class="m" font-size="8" fill="#FBBF24">[1]</text><text x="212" y="90" text-anchor="middle" class="m" font-size="8" fill="#FBBF24">[2]</text>
+<text x="8" y="154" class="m" font-size="9" fill="#34D399">100% local · textbooks only · every claim cited</text></g>
+<text x="664" y="312" text-anchor="end" class="m" font-size="10" fill="#7D8AA5">▸ open repository</text>
+
+</svg>

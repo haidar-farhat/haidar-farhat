@@ -60,13 +60,18 @@ minutes. If that becomes annoying, deploy your own copy of
 to Vercel and replace the host in the four `github-readme-stats.vercel.app`
 URLs.
 
-## 6. Regenerating the SVG assets
+## 6. The SVG panels
 
-`assets/hero-*.svg` and `assets/pipeline-*.svg` are hand-authored. To change
-the copy or the palette, edit the text inside the SVGs directly; the dark and
-light files are identical apart from colours.
+Every section of the README is a hand-built animated SVG in `assets/`
+(banner, section headers, profile, architecture, four project cards, stack,
+timeline, uplink). They use only CSS and SMIL animation, no external fonts or
+scripts, so GitHub renders them as-is. The design is deliberately dark-only;
+the panels read as cards on both GitHub themes.
+
+To change copy, edit the text inside the relevant SVG directly. The palette
+tokens are the hex values at the top of each file's `<style>` block.
 
 ## 7. Social preview
 
-Export `assets/hero-dark.svg` to a 1280×640 PNG and upload it under
+Export `assets/banner.svg` to a 1280×640 PNG and upload it under
 **Settings → Social preview** so the profile repository shares well.

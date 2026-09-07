@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="330" viewBox="0 0 690 330" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0F1E"/><stop offset="1" stop-color="#050810"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<linearGradient id="accv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+<radialGradient id="gc"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<radialGradient id="gv"><stop offset="0" stop-color="#A78BFA" stop-opacity=".22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1C2742" stroke-opacity=".55"/></pattern>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#26345A"/></pattern>
+<clipPath id="clip"><rect width="690" height="330" rx="22"/></clipPath>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+</defs>
+<style>
+.s{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,Arial,sans-serif} .m{font-family:'Cascadia Code','JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+.blink{animation:bl 1.1s steps(2,start) infinite} @keyframes bl{50%{opacity:0}}
+.pulse{animation:pu 2.2s ease-in-out infinite} @keyframes pu{0%,100%{opacity:.45}50%{opacity:1}}
+.fade{opacity:0;animation:fd .6s ease-out forwards} @keyframes fd{to{opacity:1}}
+.rise{opacity:0;animation:rs .6s ease-out both} @keyframes rs{from{opacity:0}to{opacity:1}}
+.dash{animation:da 1s linear infinite} @keyframes da{to{stroke-dashoffset:-16}}
+.scan{animation:sc 8s linear infinite} @keyframes sc{from{transform:translateY(-40px)}to{transform:translateY(700px)}}
+.spin{animation:sp 6s linear infinite;transform-box:fill-box;transform-origin:center} @keyframes sp{to{transform:rotate(360deg)}}
+.spinr{animation:spr 14s linear infinite;transform-box:fill-box;transform-origin:center} @keyframes spr{to{transform:rotate(-360deg)}}
+.draw{stroke-dasharray:2000;stroke-dashoffset:2000;animation:dr 2.2s ease-out forwards} @keyframes dr{to{stroke-dashoffset:0}}
+.flt{animation:fl 9s ease-in-out infinite} @keyframes fl{0%,100%{transform:translate(0,0)}50%{transform:translate(-26px,18px)}}
+.flt2{animation:fl2 12s ease-in-out infinite} @keyframes fl2{0%,100%{transform:translate(0,0)}50%{transform:translate(22px,-16px)}}
+</style>
+<g clip-path="url(#clip)">
+<rect width="690" height="330" fill="url(#bg)"/><rect width="690" height="330" fill="url(#grid)"/>
+<g class="flt"><circle cx="565.8" cy="66.0" r="181.50000000000003" fill="url(#gc)"/></g><g class="flt2"><circle cx="172.5" cy="313.5" r="165.0" fill="url(#gv)"/></g>
+<g class="scan" opacity=".25"><rect width="690" height="3" fill="url(#acc)"/></g>
+</g>
+<rect x=".5" y=".5" width="689" height="329" rx="22" fill="none" stroke="#26345A"/>
+
+
+<rect x="0" y="0" width="6" height="330" fill="#22D3EE"/>
+<text x="30" y="46" class="s" font-size="24" font-weight="900" fill="#E6EDF3">Sentinel Vision</text>
+<text x="261.5" y="46" class="m" font-size="13" fill="#22D3EE">// VIGIL</text>
+<text x="30" y="76" class="s" font-size="15" font-weight="700" fill="#22D3EE">Local-first multi-camera security &amp; situational awareness</text>
+<text x="30" y="118" class="s" font-size="13.5" fill="#B4C0D3">Ordinary cameras → a handful of reviewable incidents, each</text><text x="30" y="137" class="s" font-size="13.5" fill="#B4C0D3">carrying its frames, rule, model and the number it rests on.</text><text x="30" y="156" class="s" font-size="13.5" fill="#B4C0D3">Three cameras seeing one person yield ONE incident.</text><text x="30" y="175" class="s" font-size="13.5" fill="#B4C0D3">Distances always print with their error. Air-gapped by test.</text><g><rect x="30" y="278" width="60" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="60.0" y="292" text-anchor="middle" class="m" font-size="11" fill="#22D3EE">Python</text></g><g><rect x="98" y="278" width="135" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="165.5" y="292" text-anchor="middle" class="m" font-size="11" fill="#22D3EE">Rust core · C ABI</text></g><g><rect x="241" y="278" width="88" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="285.0" y="292" text-anchor="middle" class="m" font-size="11" fill="#22D3EE">YOLOv8-seg</text></g><g><rect x="337" y="278" width="122" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="398.0" y="292" text-anchor="middle" class="m" font-size="11" fill="#22D3EE">ONNX · DirectML</text></g><g><rect x="467" y="278" width="88" height="23" rx="11.5" fill="#0B1122" stroke="#26345A"/><text x="511.0" y="292" text-anchor="middle" class="m" font-size="11" fill="#22D3EE">Geospatial</text></g>
+<g transform="translate(430,96)">
+<rect x="0" y="0" width="230" height="160" rx="10" fill="#050810" stroke="#26345A"/><rect x="0" y="0" width="230" height="160" rx="10" fill="url(#dots)"/>
+<rect x="120" y="20" width="90" height="70" rx="4" fill="#F87171" fill-opacity=".08" stroke="#F87171" stroke-opacity=".6" stroke-dasharray="4 3"/><text x="165" y="36" text-anchor="middle" class="m" font-size="9" fill="#F87171">YARD · restricted</text>
+<g><path d="M20 140 L110 60 L130 100 Z" fill="#22D3EE" fill-opacity=".1"/><rect x="14" y="134" width="12" height="12" rx="2" fill="#22D3EE"/><text x="30" y="156" class="m" font-size="9" fill="#22D3EE">cam-1</text></g>
+<g><path d="M210 140 L120 70 L100 110 Z" fill="#A78BFA" fill-opacity=".1"/><rect x="204" y="134" width="12" height="12" rx="2" fill="#A78BFA"/><text x="176" y="156" class="m" font-size="9" fill="#A78BFA">cam-2</text></g>
+<g><animateMotion dur="7s" repeatCount="indefinite" path="M60 110 C90 80 130 70 150 55 C165 45 175 60 160 80 C140 100 90 120 60 110"/>
+<ellipse rx="16" ry="9" fill="#FBBF24" fill-opacity=".18" stroke="#FBBF24" stroke-opacity=".8"/><circle r="3.5" fill="#FBBF24" filter="url(#glow)"/>
+<text x="20" y="-8" class="m" font-size="9.5" fill="#FBBF24">person · 11.2 ± 2.4 m</text></g>
+<text x="8" y="14" class="m" font-size="9" fill="#7D8AA5">site plan · 2 cams · 1 track</text></g>
+<text x="664" y="312" text-anchor="end" class="m" font-size="10" fill="#7D8AA5">▸ open repository</text>
+
+</svg>
