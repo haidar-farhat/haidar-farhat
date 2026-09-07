@@ -1,0 +1,16 @@
+<svg width="1400" height="310" viewBox="0 0 1400 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1400" height="310" rx="24" fill="#0D1117"/>
+<text x="60" y="52" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">FROM PROBLEM TO PRODUCTION</text>
+<text x="60" y="80" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="15">A systems-first approach to AI product engineering</text>
+<g font-family="Arial, Helvetica, sans-serif">
+<g><rect x="60" y="130" width="180" height="88" rx="16" fill="#161B22" stroke="#30363D"/><text x="150" y="165" text-anchor="middle" fill="#58A6FF" font-size="14" font-weight="700">01</text><text x="150" y="191" text-anchor="middle" fill="#F0F6FC" font-size="17" font-weight="700">PROBLEM</text></g>
+<g><rect x="300" y="130" width="180" height="88" rx="16" fill="#161B22" stroke="#30363D"/><text x="390" y="165" text-anchor="middle" fill="#A371F7" font-size="14" font-weight="700">02</text><text x="390" y="191" text-anchor="middle" fill="#F0F6FC" font-size="17" font-weight="700">ARCHITECTURE</text></g>
+<g><rect x="540" y="130" width="180" height="88" rx="16" fill="#161B22" stroke="#30363D"/><text x="630" y="165" text-anchor="middle" fill="#58A6FF" font-size="14" font-weight="700">03</text><text x="630" y="191" text-anchor="middle" fill="#F0F6FC" font-size="17" font-weight="700">AI + DATA</text></g>
+<g><rect x="780" y="130" width="180" height="88" rx="16" fill="#161B22" stroke="#30363D"/><text x="870" y="165" text-anchor="middle" fill="#A371F7" font-size="14" font-weight="700">04</text><text x="870" y="191" text-anchor="middle" fill="#F0F6FC" font-size="17" font-weight="700">PRODUCT</text></g>
+<g><rect x="1020" y="130" width="180" height="88" rx="16" fill="#161B22" stroke="#30363D"/><text x="1110" y="165" text-anchor="middle" fill="#58A6FF" font-size="14" font-weight="700">05</text><text x="1110" y="191" text-anchor="middle" fill="#F0F6FC" font-size="17" font-weight="700">SHIP + MEASURE</text></g>
+</g>
+<g stroke="#30363D" stroke-width="2">
+<path d="M240 174H292"/><path d="M480 174H532"/><path d="M720 174H772"/><path d="M960 174H1012"/>
+</g>
+<text x="60" y="264" fill="#8B949E" font-family="monospace" font-size="14">reliability  •  observability  •  latency  •  maintainability  •  real-world usefulness</text>
+</svg>
