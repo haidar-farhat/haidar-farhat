@@ -1,12 +1,22 @@
 name: Generate contribution snake
 
 on:
+  # Runs automatically the first time this repository is pushed, so the README
+  # never shows a broken image. After that, the schedule keeps it fresh.
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
 
 jobs:
   snake:
@@ -20,9 +30,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Publish generated assets
+      - name: Publish to the `output` branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
+          target_branch: output
           build_dir: dist
+          commit_message: "chore: refresh contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
